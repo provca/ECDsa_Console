@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Pere Rovira</Authors>
+    <Description>This middleware serves as an intermediary layer between frontend applications and the underlying elliptic curve cryptography library. It abstracts the complexities of key management and cryptographic operations, providing a simplified interface for generating keys, signing messages, and verifying signatures. The middleware ensures a secure communication channel while maintaining a clear separation of layers, allowing for easy integration and extensibility within applications.</Description>
+    <Company>N/A</Company>
+    <ProjectUrl>https://github.com/provca</ProjectUrl>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LibECDsa\LibECDsa\LibECDsa.csproj" />
+  </ItemGroup>
+</Project>
